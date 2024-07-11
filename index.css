@@ -8,12 +8,17 @@
 }
 body{
   flex-wrap: wrap;
-padding: 5px;
+padding: 10px;
+background-color: rgb(199, 255, 199);
+border-bottom: none;
 
 
 
 }
 
+.fa{
+  font-size:xx-large;
+}
 .sid{
 text-align: center;
 direction: rtl;
@@ -22,21 +27,23 @@ contain: content;
 }
 
 .btn {
-background-color: cadetblue;
 border: none;
 color: rgb(195, 68, 68);
 font-size: 16px;
 cursor: pointer;
 height: 10px;
 width: 48;
+text-align: left;
+background-color: rgb(255, 255, 255);
 }
 button{
 width: 120px;
-height: 60px;
+height: 40px;
 }
 .top{
-
+text-align: left;
  border: 20px;
+ font-weight: bold;
 
 }
 a:link{
@@ -44,18 +51,14 @@ a:link{
   text-decoration: none;
 }
 
-.topname{
-  padding: 5px;
- text-align: center;
-  font-weight: bold;
-  background-color: cadetblue;
-
+h4{
+font-weight: bold;
 }
 h2{
 text-align: center;
 font-size: 100% ;
 font-weight:bold ;
-background-color: cadetblue;
+background-color: rgb(70, 153, 176);
 padding: 5px;
 }
 
@@ -63,12 +66,14 @@ p{
 text-align: center;
   font-size: 90%;
   font-weight: bold;
+  padding: 0px;
+margin: 0px;
  
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
  body{
- margin-left: 35%;
- margin-right:35%;
+ margin-left: 37%;
+ margin-right:36%;
 
 
 
